@@ -1,5 +1,4 @@
-## Put comments here that give an overall description of what your
-## functions do
+## cachematrix.R
 #####################################################
 # makeCacheMatrix() is used in conjunction with 
 # cacheSolve() to cache the inverse of matrix
@@ -40,7 +39,7 @@ makeCacheMatrix <- function(x = matrix()) {
     }
     # get() returns the passed matrix
     get <- function() x
-    # setsolve() receives the solve matrix
+    # setsolve() receives the solved matrix
     setsolve <- function(solve) s <<- solve
     # getsolve returns the solved matrix
     getsolve <- function() s
